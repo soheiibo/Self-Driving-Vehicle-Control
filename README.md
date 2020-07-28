@@ -22,3 +22,9 @@ If you open the simulator directory and navigate to the Course1FinalProject fold
 ## Some concepts including formulas and expected output of the controller :
 
 ![510](https://user-images.githubusercontent.com/64086951/88725848-a413a480-d124-11ea-988a-71a70f8c0d44.jpg)
+![55582651-b9431380-5728-11e9-9a26-46e08467ffd3](https://user-images.githubusercontent.com/64086951/88726005-e0df9b80-d124-11ea-9cca-fca55f7fec85.jpg)
+
+# Results
+## Longitudinal control
+To evaluate the performance of the longitudinal controller the next image is provided. In the graph, the speed profile proposed to drive the car around the track is in orange, and the real vehicle speed obtained by using the PID controller is in blue.
+![forward_speed](https://user-images.githubusercontent.com/64086951/88726117-08366880-d125-11ea-95ef-ccf11e29e062.png)
