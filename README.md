@@ -17,3 +17,4 @@ If you want to make your own controller design, I highly recommend that you shou
 
 If you open the simulator directory and navigate to the Course1FinalProject folder, you will see a file named controller2d.py
 ## The Race Tack including waypoints:
+![590](https://user-images.githubusercontent.com/64086951/88724909-27cc9180-d123-11ea-9ba4-1e8712c74add.jpg)
