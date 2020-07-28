@@ -16,7 +16,9 @@ The output of the controller will be the vehicle throttle, brake and steering an
 
 The throttle and brake come from the Longitudinal speed control and the steering comes from our Lateral Control.
 
-If you want to make your own controller design, I highly recommend that you should  open #controller2d.py
+If you want to make your own controller design, I highly recommend that you should  open 
+# controller2d.py.
+
 ## The Race Tack including waypoints:
 ![590](https://user-images.githubusercontent.com/64086951/88724909-27cc9180-d123-11ea-9ba4-1e8712c74add.jpg)
 
