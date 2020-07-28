@@ -25,6 +25,13 @@ If you open the simulator directory and navigate to the Course1FinalProject fold
 ![55582651-b9431380-5728-11e9-9a26-46e08467ffd3](https://user-images.githubusercontent.com/64086951/88726005-e0df9b80-d124-11ea-9cca-fca55f7fec85.jpg)
 
 # Results
+
 ## Longitudinal control
 To evaluate the performance of the longitudinal controller the next image is provided. In the graph, the speed profile proposed to drive the car around the track is in orange, and the real vehicle speed obtained by using the PID controller is in blue.
-![forward_speed](https://user-images.githubusercontent.com/64086951/88726117-08366880-d125-11ea-95ef-ccf11e29e062.png)
+![Figure_2](https://user-images.githubusercontent.com/64086951/88726231-43389c00-d125-11ea-8dce-c35b3a48fe8e.png)
+
+## Lateral control
+Similar to the longitudinal controller, a image is provided to shown the performance of the lateral controller. In the graph, the trajectory proposed to drive the car around the car is shown in blue, and the trayectory followed by the vehicle by using the Pure pursuit Controller is in orange.
+![Figure_1](https://user-images.githubusercontent.com/64086951/88726320-66634b80-d125-11ea-9d9b-441f700459c0.png)
+
+Other types of controllers such as the Stanley or even the Model Predictive Control could be implemented to try to enhance the system performance.
