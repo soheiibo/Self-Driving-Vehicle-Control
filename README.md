@@ -4,4 +4,16 @@ This respository explains the approach implemented for the final project of the 
 
 The aim of this project was to implement a controller in Python to drive a car around a track in the Carla Simulator. To control successfully the vehicle, both longitudinal and lateral controllers were implemented, in order to obtain the throttle, brake and steering control signals.
 
-[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=dXrmkizWnag)
+## Project notes:
+The waypoints include positions as well as the speed the vehicle should attain. As a result, the waypoints become the reference signal for our controller and navigating to all the waypoints effectively completes the full track.
+
+Since the controller reference contains both position and speed, we need to implement both Longitudinal and Lateral Control.
+
+The output of the controller will be the vehicle throttle, brake and steering angle commands.
+
+The throttle and brake come from the Longitudinal speed control and the steering comes from our Lateral Control.
+
+If you want to make your own controller design, I highly recommend that you should consider the following points:
+
+If you open the simulator directory and navigate to the Course1FinalProject folder, you will see a file named controller2d.py
+## The Race Tack including waypoints:
