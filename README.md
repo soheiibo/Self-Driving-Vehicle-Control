@@ -4,6 +4,9 @@ This respository explains the approach implemented for the final project of the 
 
 The aim of this project was to implement a controller in Python to drive a car around a track in the Carla Simulator. To control successfully the vehicle, both longitudinal and lateral controllers were implemented, in order to obtain the throttle, brake and steering control signals.
 
+![ezgif-6-0823856c2c7b](https://user-images.githubusercontent.com/64086951/88726973-8fd0a700-d126-11ea-8b7a-4fc4fc05554f.gif)
+
+
 ## Project notes:
 The waypoints include positions as well as the speed the vehicle should attain. As a result, the waypoints become the reference signal for our controller and navigating to all the waypoints effectively completes the full track.
 
